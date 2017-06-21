@@ -5,20 +5,20 @@ services:
  # - elasticsearch 
  # - memcached 
  # - mongodb 
-  - mysql 
+  #- mysql 
  # - neo4j 
-  - postgres
-  - rethinkdb 
+ # - postgres
+ # - rethinkdb 
  # - rabbitmq 
  # - redis 
- # - selenium 
+  - selenium 
  # - sqlite 
  # - couchdb 
   
 # Version number
-jdk:
+#jdk:
   #- openjdk6
-  - openjdk7
+ # - openjdk7
   #- oraclejdk7
   #- oraclejdk8
   #- openjdk8
