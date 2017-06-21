@@ -15,12 +15,12 @@ services:
  # - couchdb 
   #- rethinkdb 
 # Version number
-#jdk:
+jdk:
 #  - openjdk6
 #  - openjdk7
 ## - oraclejdk7
  # - oraclejdk8
- # - openjdk8
+  - openjdk8
 
 build:
   pre_ci_boot:
