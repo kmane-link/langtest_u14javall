@@ -16,11 +16,11 @@ services:
   - rethinkdb 
 # Version number
 jdk:
-  - openjdk6
+  #- openjdk6
   - openjdk7
-  - oraclejdk7
-  - oraclejdk8
-  - openjdk8
+  #- oraclejdk7
+  #- oraclejdk8
+  #- openjdk8
 
 build:
   pre_ci_boot:
