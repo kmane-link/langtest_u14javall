@@ -7,13 +7,14 @@ services:
  # - mongodb 
   - mysql 
  # - neo4j 
-  - postgres 
+  - postgres
+  - rethinkdb 
  # - rabbitmq 
  # - redis 
-  - selenium 
+ # - selenium 
  # - sqlite 
  # - couchdb 
-  - rethinkdb 
+  
 # Version number
 jdk:
   #- openjdk6
