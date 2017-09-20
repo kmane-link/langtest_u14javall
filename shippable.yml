@@ -33,6 +33,7 @@ build:
     - java -version
    # - ant -version
     - gradle --version
+    - sleep 1m
     - mvn --version    
     - echo $SHIPPABLE_MYSQL_BINARY
     - echo $SHIPPABLE_POSTGRES_BINARY
