@@ -16,16 +16,16 @@ services:
   #- rethinkdb 
 # Version number
 jdk:
-#  - openjdk6
- # - openjdk7
- # - oraclejdk7
+  - openjdk6
+  - openjdk7
+  - oraclejdk7
   - oraclejdk8
  # - openjdk8
 
 build:
   pre_ci_boot:
     image_name: drydock/u14javall
-    image_tag: v5.4.1
+    image_tag: master
     pull: true
 
   ci:
