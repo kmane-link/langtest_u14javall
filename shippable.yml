@@ -1,19 +1,9 @@
 # Language setting
 language: java
 services:
- # - cassandra 
- # - elasticsearch 
- # - memcached 
- # - mongodb 
-  #- mysql 
- # - neo4j 
- # - postgres
- # - rethinkdb 
- # - rabbitmq 
- # - redis 
+ 
   - selenium 
- # - sqlite 
- # - couchdb 
+
   
 # Version number
 jdk:
