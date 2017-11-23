@@ -18,14 +18,14 @@ services:
 jdk:
 #  - openjdk6
 #  - openjdk7
-## - oraclejdk7
- # - oraclejdk8
+  - oraclejdk7
+  - oraclejdk8
   - openjdk8
 
 build:
   pre_ci_boot:
     image_name: drydock/u14javall
-    image_tag: v5.5.1
+    image_tag: master
     pull: true
 
   ci:
